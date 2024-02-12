@@ -57,7 +57,7 @@ function play() {
         resultArea.textContent = "Down!!!!"
     } else {
         resultArea.textContent = "맞췄습니다."
-        gameOver = true;
+        gameOver = true; //맞췃을 때 disabled.
     }
     
     history.push(userValue) // 입력한 값 히스토리 배열에 저장.
